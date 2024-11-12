@@ -1,4 +1,4 @@
 quart
 openai
 python-dotenv
-gunicorn
+uvicorn
