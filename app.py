@@ -126,7 +126,8 @@ Explore debt consolidation options to lower monthly payments.
 Once debt is manageable, consider a conservative approach to investing, such as contributing to a money market account or low-risk mutual funds.
 
 Task:
-Given a new set of recent notes and wealth information, suggest personalized investment strategies that align with the client’s financial health and objectives. Make them as specific and actionable as possible. Try to suggest something that the client has not already considered or implemented as well.
+Given a new set of recent notes and wealth information, suggest 3-4 personalized investment strategies that align with the client’s financial health and objectives. Make them as specific and actionable as possible.
+Try to suggest something that the client has not already considered or implemented as well. Give a maximum of 4 advices.
 The output should be in the above format. Each advice/strategy should be on a new line. Do not send anything other than the investment advice."""
     data = await request.get_json()
     notes = data.get("meeting_notes", [])
